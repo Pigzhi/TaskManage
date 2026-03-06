@@ -5,7 +5,7 @@ using TaskAPI.Services;
 namespace TaskAPI.Controllers
 {
     [ApiController]
-    [Route("Api")]
+    [Route("Api/[controller]")]
     public class TaskController : ControllerBase
     {
         private readonly TaskService _service;
